@@ -1,0 +1,13 @@
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
+logging.info("Program started")
+logging.warning("Something looks unusual")
+logging.error("Something went wrong")
+
+logging.debug("x is currently 42")
+logging.info("User logged in")
+logging.warning("Configuration file not found; using defaults")
+logging.error("Could not save file")
+logging.critical("System cannot continue")
